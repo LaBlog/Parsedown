@@ -23,3 +23,18 @@ Twig Filter
 LaBlog Parsedown also adds Parsedown as a twig filter. To enable the twig filter, add the `Lablog\Parsedown\ParsedownProcessor` to your service providers in your Laravel `comfig/app.php` file.
 
 Once done, you will be able to use the parsedown filter like so.
+
+```php
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Twig Template</title>
+</head>
+<body>
+    {{ content | parsedown }}
+</body>
+</html>
+```
+
+*Where `content` is a string of markdown.*
