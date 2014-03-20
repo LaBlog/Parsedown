@@ -21,6 +21,6 @@ Twig Filter
 -----------
 
 LaBlog Parsedown also adds Parsedown as a twig filter. To enable the twig filter, add the `Lablog\Parsedown\ParsedownProcessor` to your service providers in your Laravel `comfig/app.php` file.
-=======
+
 Parsedown
 =========
