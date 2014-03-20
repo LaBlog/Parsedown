@@ -8,7 +8,8 @@ This processor has a few differences. The main difference is that this processor
 Installation
 ============
 
-## Main Processor ##
+Main Processor
+--------------
 
 LaBlog Parsedown can be installed as the default processor for LaBlog by changing the binding for `Lablog\Lablog\Processor\ProcessorInterface`.
 
@@ -16,7 +17,8 @@ The binding should be changed as follows:
 
 `'Lablog\Lablog\Processor\ProcessorInterface' => 'Lablog\Parsedown\ParsedownProcessor'`
 
-## Twig Filter ##
+Twig Filter
+-----------
 
 LaBlog Parsedown also adds Parsedown as a twig filter. To enable the twig filter, add the `Lablog\Parsedown\ParsedownProcessor` to your service providers in your Laravel `comfig/app.php` file.
 =======
