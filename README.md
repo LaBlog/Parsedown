@@ -1,3 +1,5 @@
+__NO LONGER MAINTAINED!__ Try the following instead: [https://github.com/jralph/Twig-Markdown](https://github.com/jralph/Twig-Markdown)
+
 LaBlog Parsedown Plugin (Including Twig Filter)
 ===============================================
 
